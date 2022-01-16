@@ -1,0 +1,16 @@
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\bin\Debug\net5.0\TennisScoringDI.exe
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\bin\Debug\net5.0\TennisScoringDI.deps.json
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\bin\Debug\net5.0\TennisScoringDI.runtimeconfig.json
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\bin\Debug\net5.0\TennisScoringDI.runtimeconfig.dev.json
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\bin\Debug\net5.0\TennisScoringDI.dll
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\bin\Debug\net5.0\ref\TennisScoringDI.dll
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\bin\Debug\net5.0\TennisScoringDI.pdb
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\obj\Debug\net5.0\TennisScoringDI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\obj\Debug\net5.0\TennisScoringDI.AssemblyInfoInputs.cache
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\obj\Debug\net5.0\TennisScoringDI.AssemblyInfo.cs
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\obj\Debug\net5.0\TennisScoringDI.csproj.CoreCompileInputs.cache
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\obj\Debug\net5.0\TennisScoringDI.dll
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\obj\Debug\net5.0\ref\TennisScoringDI.dll
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\obj\Debug\net5.0\TennisScoringDI.pdb
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\obj\Debug\net5.0\TennisScoringDI.genruntimeconfig.cache
+C:\Users\Rob26\source\repos\TennisScoringDI\TennisScoringDI\obj\Debug\net5.0\TennisScoringDI.csproj.AssemblyReference.cache
