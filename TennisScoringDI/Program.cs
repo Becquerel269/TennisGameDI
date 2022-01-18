@@ -6,7 +6,7 @@ using TennisScoringDI.Services.ScoreCalculator;
 
 namespace TennisScoringDI
 {
-    internal class Program
+    public class Program
     {
         private static void Main(string[] args)
         {

@@ -4,11 +4,15 @@ using TennisScoringDI.Models;
 
 namespace TennisScoringDI.Services.ScoreCalculator
 {
-    internal class ScoreService : IScoreService
+    public class ScoreService : IScoreService
     {
         private ScoreTable _scoreTable;
 
-        
+        public ScoreService()
+        {
+            _scoreTable = new ScoreTable();
+            _scoreTable.PlayerScores = new List<PlayerScore>();
+        }
         public void SetupScoreTable(List<string> playerNames)
         {
             var playerScores = new List<PlayerScore>();
@@ -22,10 +26,8 @@ namespace TennisScoringDI.Services.ScoreCalculator
                 playerScores.Add(playerScore);
             }
 
-            _scoreTable = new ScoreTable
-            {
-                PlayerScores = playerScores,
-            };
+            _scoreTable.PlayerScores = playerScores;
+            
         }
 
         public string GetWinner()
@@ -40,6 +42,14 @@ namespace TennisScoringDI.Services.ScoreCalculator
 
         public ScoreTable PointScored(MoveResult moveResult, string playerName)
         {
+            if (moveResult == null)
+            {
+                throw new ArgumentNullException(nameof(moveResult));
+            }
+            if (String.IsNullOrEmpty(playerName))
+            {
+                throw new ArgumentNullException(nameof(playerName));
+            }
             foreach (var playerScore in _scoreTable.PlayerScores)
             {
                 if (playerScore.PlayerName == playerName)
